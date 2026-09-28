@@ -1,0 +1,13 @@
+# Secrets never go in Atlas
+.env
+*.key
+*.pem
+secrets/
+
+# Local Claude Code settings (machine-specific)
+.claude/settings.local.json
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
